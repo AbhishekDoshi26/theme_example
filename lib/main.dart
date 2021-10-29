@@ -6,6 +6,7 @@ void main() => runApp(MyApp());
 class MyApp extends StatefulWidget {
   @override
   _MyAppState createState() => _MyAppState();
+
   static _MyAppState? of(BuildContext context) => context.findAncestorStateOfType<_MyAppState>();
 }
 
